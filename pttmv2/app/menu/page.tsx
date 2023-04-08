@@ -1,10 +1,17 @@
 import Navbar from "../components/navbar/navbar.comp";
+import Image from "next/image";
 
 const Menu = () => {
   return (
     <div>
       <Navbar />
-      <h1>Menu Page!</h1>
+      <Image
+        src="/images/pokemenu.png"
+        alt="Menu"
+        layout="responsive"
+        width={772}
+        height={1000}
+      />
     </div>
   );
 };
