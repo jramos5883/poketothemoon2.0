@@ -5,14 +5,14 @@ const Footer = () => {
     <div className="footer-container container-fluid">
       <p>Poke to the Moon Inc.</p>
       <div className="media-container">
+        <Link href="https://www.tiktok.com/@poketothemoon">
+          <i className="fa-brands fa-tiktok fa-2xl"></i>
+        </Link>
         <Link href="https://www.instagram.com/poketothemoon/?hl=en">
           <i className="fa-brands fa-instagram fa-2xl"></i>
         </Link>
         <Link href="https://www.facebook.com/profile.php?id=100083836400198">
           <i className="fa-brands fa-facebook fa-2xl"></i>
-        </Link>
-        <Link href="">
-          <i className="fa-brands fa-tiktok fa-2xl"></i>
         </Link>
       </div>
     </div>
