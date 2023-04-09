@@ -7,7 +7,7 @@ export default function Page() {
     <div>
       <Navbar />
       <Carousel />
-      <div className="container-fluid">
+      <div className="home-container container-fluid">
         <h2 className="home-header">What is Poke?</h2>
         <p className="home-intro">
           A poke bowl is a Hawaiian dish that typically consists of marinated

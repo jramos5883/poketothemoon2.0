@@ -1,3 +1,4 @@
+import Script from "next/script";
 import "../app/styles/global.css";
 import "../app/styles/navbar.styles.css";
 import "../app/styles/carousel.styles.css";
@@ -15,6 +16,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <Script
+        src="https://kit.fontawesome.com/85d5839673.js"
+        crossOrigin="anonymous"
+      ></Script>
       <body>{children}</body>
     </html>
   );

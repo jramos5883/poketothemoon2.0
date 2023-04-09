@@ -2,7 +2,7 @@
 will fine tune before diployment. */
 
 .carousel-container {
-  background-color: #000; /* You can use any color that matches your design */
+  background-color: black; /* You can use any color that matches your design */
   position: relative;
   overflow: hidden;
   border-left: 4px solid black;

@@ -6,6 +6,7 @@ const Menu = () => {
   return (
     <div>
       <Navbar />
+      <div className='menu-container'>
       <Image
         src="/images/pokemenu.png"
         alt="Menu"
@@ -13,6 +14,7 @@ const Menu = () => {
         width={772}
         height={1000}
       />
+      </div>
       <Footer />
     </div>
   );

@@ -5,7 +5,8 @@
 }
 
 body {
-  background-image: url("https://freesvg.org/img/1546122480.png");
+  /* background-image: url("https://freesvg.org/img/1546122480.png"); */
+  background-image: url("https://freesvg.org/img/weltraumsterneplanetenastronautspacethemecollage1546122480zumausmalen.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -66,6 +67,13 @@ p {
 
 /* homepage styling */
 
+.home-container {
+  background-color: white;
+  opacity: 0.85;
+  color: black;
+  padding: 2%;
+}
+
 .home-header {
   text-align: center;
   justify-content: center;
@@ -74,3 +82,33 @@ p {
 .home-intro {
   padding: 1%;
 }
+
+/* aboutus styling */
+
+.aboutus-pic-container {
+  background-color: black;
+  position: relative;
+  overflow: hidden;
+  border-left: 4px solid black;
+  border-right: 4px solid black;
+  border-top: 4px solid black;
+}
+
+.aboutus-content-container {
+  background-color: white;
+  opacity: 0.85;
+  color: black;
+  padding: 2%;
+}
+
+/* menu styling */
+
+.menu-container {
+  background-color: black;
+  position: relative;
+  overflow: hidden;
+  border-left: 4px solid black;
+  border-right: 4px solid black;
+  border-top: 4px solid black;
+}
+/* location styling */
