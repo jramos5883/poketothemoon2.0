@@ -4,7 +4,6 @@ import Link from "next/link";
 const Navbar = () => {
   return (
     <div className="container-fluid navbar">
-      {/* <h2>POKE TO THE MOON</h2> */}
       <div className="nav-link-container container-fluid">
         <Link className="nav-link" href="/">
           Home
