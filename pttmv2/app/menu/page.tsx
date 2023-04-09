@@ -1,4 +1,5 @@
 import Navbar from "../components/navbar/navbar.comp";
+import Footer from "../components/footer/footer.comp";
 import Image from "next/image";
 
 const Menu = () => {
@@ -12,6 +13,7 @@ const Menu = () => {
         width={772}
         height={1000}
       />
+      <Footer />
     </div>
   );
 };

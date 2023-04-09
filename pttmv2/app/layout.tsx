@@ -1,6 +1,7 @@
 import "../app/styles/global.css";
 import "../app/styles/navbar.styles.css";
 import "../app/styles/carousel.styles.css";
+import "../app/styles/footer.styles.css";
 
 export const metadata = {
   title: "Next.js",

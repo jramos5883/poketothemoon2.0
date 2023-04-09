@@ -1,4 +1,5 @@
 import Navbar from "../components/navbar/navbar.comp";
+import Footer from "../components/footer/footer.comp";
 import Image from "next/image";
 
 const AboutUs = () => {
@@ -43,6 +44,7 @@ const AboutUs = () => {
           </p>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

@@ -2,17 +2,17 @@
 import Link from "next/link";
 
 const Navbar = () => {
-
   return (
     <div className="container-fluid navbar">
-      <h1>POKE TO THE MOON</h1>
-      <div className="nav-link-container">
+      {/* <h2>POKE TO THE MOON</h2> */}
+      <div className="nav-link-container container-fluid">
         <Link className="nav-link" href="/">
           Home
         </Link>
         <Link className="nav-link" href="/aboutus">
           About Us
         </Link>
+        <h2 className="poke-header">POKE TO THE MOON</h2>
         <Link className="nav-link" href="/menu">
           Menu
         </Link>

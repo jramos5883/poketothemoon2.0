@@ -1,5 +1,6 @@
 import Navbar from "../app/components/navbar/navbar.comp";
 import Carousel from "../app/components/carousel/carousel.comp";
+import Footer from "../app/components/footer/footer.comp";
 
 export default function Page() {
   return (
@@ -13,10 +14,11 @@ export default function Page() {
           diced raw fish served over a bed of rice with various toppings such as
           vegatables, fruits, and sauces. It is a healthy and flavorful meal
           that has become popular globally for its unique taste and versatility.
-          Here at Poke to the Moon, we emphasize poke's versatility with our
+          Here at Poke to the Moon, we emphasize poke`&apos;`s versatility with our
           boujee add ons that are unique to our poke place.
         </p>
       </div>
+      <Footer />
     </div>
   );
 }
