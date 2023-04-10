@@ -3,7 +3,7 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <div className="footer-container container-fluid">
-      <p>Poke to the Moon Inc.</p>
+      <p className="media-container">Poke To The Moon Inc.</p>
       <div className="media-container">
         <Link href="https://www.tiktok.com/@poketothemoon">
           <i className="fa-brands fa-tiktok fa-2xl"></i>

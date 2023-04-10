@@ -16,10 +16,9 @@ const AboutUs = () => {
         />
       </div>
       <div className="aboutus-content-container container-fluid">
-        <p>Delicous Poke only at Poke To The Moon</p>
-        <h2>About Us</h2>
-        <p>
-          Welcome to Poke to the Moon, The ultimate destination for poke lovers
+        <h1 className="aboutus-content aboutus-header">About Us</h1>
+        <h4 className="aboutus-content text-indent">
+          Welcome to Poke To The Moon, The ultimate destination for poke lovers
           in the city of Orange! Our unique poke shop is dedicated to brining
           you the most flavorful and satisfying poke bowls using the freshiest
           ingredients available. At Poke to the Moon, we take pride in our
@@ -28,8 +27,8 @@ const AboutUs = () => {
           Sauce, a Soy Sesame, are all uniquely crafted to elevate your poke
           bowl experience. Each sauce is carefully prepared with a perfect
           balance of flavors that will leave you wanting more.
-        </p>
-        <p>
+        </h4>
+        <h4 className="aboutus-content text-indent">
           Our custom poke bowls allow you to create your own masterpiece with a
           wide range of fresh and healthy ingredients to choose from. We also
           offer boujee toppings such as bone marrow, salmon skin, and truffle to
@@ -38,11 +37,11 @@ const AboutUs = () => {
           enjoy your poke bowl with family and friends. Our friendly staff is
           dedicated to providing exceptional service and making sure that you
           leave our shop satisfied and happy.
-        </p>
-        <p>
+        </h4>
+        <h4 className="aboutus-content text-indent">
           Thank you for choosing Poke to the Moon as your go-to poke spot. We
           look forward to serving you soon!
-        </p>
+        </h4>
       </div>
       <Footer />
     </div>

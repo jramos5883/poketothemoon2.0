@@ -65,11 +65,16 @@ p {
   font-size: 1.5rem;
 }
 
+.text-indent {
+  text-indent: 30px;
+  line-height: 1.5;
+}
+
 /* homepage styling */
 
 .home-container {
   background-color: white;
-  opacity: 0.85;
+  opacity: 0.90;
   color: black;
   padding: 2%;
 }
@@ -77,10 +82,15 @@ p {
 .home-header {
   text-align: center;
   justify-content: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
 
 .home-intro {
-  padding: 1%;
+  padding: 2%;
+  opacity: 1;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 /* aboutus styling */
@@ -96,9 +106,19 @@ p {
 
 .aboutus-content-container {
   background-color: white;
-  opacity: 0.85;
+  opacity: 0.90;
   color: black;
   padding: 2%;
+}
+
+.aboutus-header {
+  text-align: center;
+  justify-content: center;
+}
+
+.aboutus-content {
+  padding-top: 2%;
+  padding-left: 2%;
 }
 
 /* menu styling */

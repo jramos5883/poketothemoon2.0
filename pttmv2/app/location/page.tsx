@@ -5,7 +5,7 @@ const Location = () => {
   return (
     <div>
       <Navbar />
-      <h1>Location Page!</h1>
+      <h2>Business Information</h2>
       <div className="info-content-container">
         <div className="info-content">
           <p>Address:</p>
