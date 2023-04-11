@@ -20,7 +20,7 @@ export default function Page() {
           Here at Poke to the Moon, we emphasize poke&apos;s versatility with
           our boujee add ons that are unique to our poke place. By combining
           traditional flavors with innovative twists, we strive to deliver a
-          memorable culinary journey that showcases the best of what poke
+          memorable culinary experience that showcases the best of what poke
           cuisine has to offer.
         </h4>
       </div>

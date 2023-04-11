@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Script from "next/script";
 import "../app/styles/global.css";
 import "../app/styles/navbar.styles.css";

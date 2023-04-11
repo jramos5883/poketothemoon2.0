@@ -94,7 +94,7 @@ p {
 }
 
 .p3 {
-  padding-left: 3%;
+  padding-left: 4%;
   margin-bottom: 1%;
 }
 
@@ -137,3 +137,8 @@ p {
   border-top: 4px solid black;
 }
 /* location styling */
+
+#map {
+  height: 400px; /* The height is 400 pixels */
+  width: 100%; /* The width is the width of the web page */
+}
