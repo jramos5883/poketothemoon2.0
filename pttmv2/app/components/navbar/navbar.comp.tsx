@@ -2,8 +2,14 @@
 import Link from "next/link";
 
 import { Oleo_Script } from "@next/font/google";
+import { Fugaz_One } from "@next/font/google";
 
 const oleoScript = Oleo_Script({
+  weight: "700",
+  subsets: ["latin"],
+});
+
+const fugazOne = Fugaz_One({
   weight: "400",
   subsets: ["latin"],
 });
@@ -19,6 +25,7 @@ const Navbar = () => {
           About Us
         </Link>
         <h2 className={oleoScript.className}>POKE TO THE MOON</h2>
+        <h2 className={fugazOne.className}>POKE TO THE MOON</h2>
         <Link className="nav-link" href="/menu">
           Menu
         </Link>
