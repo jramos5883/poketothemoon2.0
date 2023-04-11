@@ -1,6 +1,13 @@
 "use client";
 import Link from "next/link";
 
+import { Oleo_Script } from "@next/font/google";
+
+const oleoScript = Oleo_Script({
+  weight: "400",
+  subsets: ["latin"],
+});
+
 const Navbar = () => {
   return (
     <div className="container-fluid navbar">
@@ -11,7 +18,7 @@ const Navbar = () => {
         <Link className="nav-link" href="/aboutus">
           About Us
         </Link>
-        <h2 className="poke-header">POKE TO THE MOON</h2>
+        <h2 className={oleoScript.className}>POKE TO THE MOON</h2>
         <Link className="nav-link" href="/menu">
           Menu
         </Link>
