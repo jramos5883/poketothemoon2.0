@@ -2,14 +2,14 @@
 import Link from "next/link";
 
 import { Oleo_Script } from "@next/font/google";
-import { Fugaz_One } from "@next/font/google";
+import { Luckiest_Guy } from "@next/font/google";
 
 const oleoScript = Oleo_Script({
   weight: "700",
   subsets: ["latin"],
 });
 
-const fugazOne = Fugaz_One({
+const luckietGuy = Luckiest_Guy({
   weight: "400",
   subsets: ["latin"],
 });
@@ -19,18 +19,17 @@ const Navbar = () => {
     <div className="container-fluid navbar">
       <div className="nav-link-container container-fluid">
         <Link className="nav-link" href="/">
-          Home
+          <p className={oleoScript.className}>Home</p>
         </Link>
         <Link className="nav-link" href="/aboutus">
-          About Us
+          <p className={oleoScript.className}>About Us</p>
         </Link>
-        <h2 className={oleoScript.className}>POKE TO THE MOON</h2>
-        <h2 className={fugazOne.className}>POKE TO THE MOON</h2>
+        <h1 className={luckietGuy.className}><span className='poke-header'>- POKE TO THE MOON -</span></h1>
         <Link className="nav-link" href="/menu">
-          Menu
+          <p className={oleoScript.className}>Menu</p>
         </Link>
         <Link className="nav-link" href="/location">
-          Location
+          <p className={oleoScript.className}>Location</p>
         </Link>
       </div>
     </div>
